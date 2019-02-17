@@ -1,3 +1,21 @@
+<h1 align="center">How to install laravel app for newbie</h1>
+
+1. Download & Installing Xampp (How to check if it has installed? just open cmd, type php -v, and it should state your php version)
+2. Download & Installing Composer (How to check if it has installed?  open cmd, type composer) 
+3. Then install laravel by 
+-open cmd 
+-type composer global require laravel/installer
+4. Time to setup laravel project by
+-open cmd on folder which is C:\Windows\System32\cmd.exe
+-type composer create-project  laravel/laravel foldername
+5. Wait for the process downloading complete 
+6. After complete, directly type cd to that foldername(name of the folder u create when u installing laravel app)
+7. Make sure xampp have being open and run/start the apache & mysql
+8. After that, type php artisan serve
+9. Last but not least, go to the browser and type localhost:8080 / localhost:8000 (regarding to the laravel ip state after type php artisan serve)
+
+
+
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
 <p align="center">
